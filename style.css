@@ -1,0 +1,123 @@
+nav
+{
+    text-align: right;
+}
+nav > a {
+    margin-right: 1rem;
+}
+.circular 
+{
+    
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    width: 1%;
+    border-radius: 10%;
+}
+.input {
+    border-color:  #f8f9fa;
+    background-color:  #f8f9fa;
+}
+.input-wrapper{
+    position: relative;
+    margin:  0 0 1rem 1rem;
+  }
+ .fa-magnifying-glass{
+    position: absolute;
+    padding-left: 0.8rem;
+    padding-top: 0.7rem;
+  }
+  .fa-microphone
+  {
+    position: absolute;
+    margin-left: 30.7rem;
+    margin-top: 0.7rem;
+  }
+  .fa-camera
+  {
+    position: absolute;
+    margin-left: 32.4rem;
+    margin-top: 0.7rem;
+  }
+
+
+.input-field 
+{
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+}
+button {
+    background-color: #f8f9fa; 
+    border: 1px solid #f8f9fa;
+    color: white;
+    color: #3c4043;
+    border-radius: 4px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-left: 1rem;
+  }
+  button:hover {
+    box-shadow: 0 12px 16px 0 rgba(245, 245, 245, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+section 
+{
+    text-align: center;
+    margin-top: 20rem;
+}
+
+.container
+{
+    margin-top: 1rem;
+
+}
+input
+{
+  padding:10px;
+  border-radius: 20px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2; 
+}
+.left 
+{
+    text-align: left;
+    
+} 
+.left > a {
+    margin: 1rem;
+}
+.center
+{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.right 
+{
+    width: 20%;
+    margin: auto;
+    margin-left: 10rem;
+    text-align: right;
+}
+.right > a {
+    margin: 1rem;
+}
+ .left, .center, .right
+{
+    display: inline-block;
+    padding-bottom: 1%;  
+    padding-top: 1%;
+
+}
